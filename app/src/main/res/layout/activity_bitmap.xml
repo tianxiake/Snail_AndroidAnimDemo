@@ -8,15 +8,20 @@
     android:orientation="vertical"
     tools:context="com.nebulaera.snail_androidanimdemo.BitmapFactoryActivity">
     <Button
-        android:id="@+id/btn_test_decode_by_file_descriptor"
+        android:id="@+id/btn_bitmap_factory_decode_assets_by_file_descriptor"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="BitmapFactory use  Decode use FileDescriptor"
+        android:text="BitmapFactory decode assets by FileDescriptor"
         android:textAllCaps="false"/>
     <Button
-        android:id="@+id/btn_test_decode_assets_by_inputStream"
+        android:id="@+id/btn_bitmap_factory_decode_assets_by_inputStream"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="BitmapFactory "
+        android:text="BitmapFactory decode assets by inputStream"
         android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
